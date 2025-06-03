@@ -19,13 +19,13 @@ is_number() {
 
 if ! is_number "$a"
 then
-    echo "Error: variable a is not number"
+    printf "Error: variable a is not number\n"
     trigger_error=1
 fi
 
 if ! is_number "$b"
 then
-    echo "Error: variable b is not number"
+    printf "Error: variable b is not number\n"
     trigger_error=1
 fi
 
@@ -45,19 +45,19 @@ read -p "Choose action: " action
 
 case $action in
     "1")
-        echo "Summarization: $a + $b = $(($a+$b))"
+        printf "Summarization: $a + $b = $(($a+$b))\n"
         ;;
     "2")
-        echo "Subtraction: $a - $b = $(($a-$b))"
+        printf "Subtraction: $a - $b = $(($a-$b))\n"
         ;;
     "3")
-        echo "Multiply: $a * $b = $(($a*$b))"
+        printf "Multiply: $a * $b = $(($a*$b))\n"
         ;;
     "4")
-        echo "Division: $a / $b = $(($a/$b))"
+        printf "Division: $a / $b = $(($a/$b))\n"
         ;;
     *)
-        echo "Error: action number is not valid"
+        printf "Error: action number is not valid\n"
         exit 1
         ;;
 esac

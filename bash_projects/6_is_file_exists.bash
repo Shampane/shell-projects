@@ -8,3 +8,5 @@ else
     printf "File exists\n"
     ls -l $filename
 fi
+
+exit 0

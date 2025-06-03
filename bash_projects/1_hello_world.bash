@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "Hello, world"
+printf "Hello, world\n"
+exit 0

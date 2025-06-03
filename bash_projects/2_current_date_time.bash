@@ -1,12 +1,14 @@
 #!/bin/bash
 
-SECONDS=$(date +%S)
-MINUTE=$(date +%M)
-HOUR=$(date +%H)
+seconds=$(date +%S)
+minute=$(date +%M)
+hour=$(date +%H)
 
-DAY=$(date +%d)
-MONTH=$(date +%m)
-YEAR=$(date +%Y)
+day=$(date +%d)
+month=$(date +%m)
+year=$(date +%Y)
 
-echo "Time: $HOUR:$MINUTE:$SECONDS"
-echo "Date: $DAY/$MONTH/$YEAR"
+echo "Time: $hour:$minute:$seconds\n"
+echo "Date: $day/$month/$year\n"
+
+exit 0

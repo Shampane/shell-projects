@@ -83,4 +83,6 @@ get_cpu_info
 get_memory_info
 get_filesystems_info
 get_usb_info
-get_network_interfaces_info
+get_network_interfaces_infoexit 0
+
+exit 0
