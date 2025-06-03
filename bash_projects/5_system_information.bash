@@ -19,7 +19,6 @@ get_cpu_info () {
     lscpu | grep -i 'cache'
 
     print_line $line_length
-    printf "\n"
 }
 
 get_memory_info () {
@@ -39,7 +38,6 @@ get_memory_info () {
     printf "– free: $(free -m | grep -i '^swap' | tr -s " " | cut -d " " -f 4)Mb \n" 
 
     print_line $line_length
-    printf "\n"
 }
 
 get_filesystems_info () {
@@ -52,7 +50,6 @@ get_filesystems_info () {
     df -hT | sort | grep -iv 'filesystem'
 
     print_line $line_length
-    printf "\n"
 }
 
 get_usb_info () {
@@ -64,7 +61,6 @@ get_usb_info () {
     lsusb -t
 
     print_line $line_length
-    printf "\n"
 }
 
 get_network_interfaces_info () {
@@ -76,13 +72,16 @@ get_network_interfaces_info () {
     ip a
 
     print_line $line_length
-    printf "\n"
 }
 
 get_cpu_info
+printf "\n\n"
 get_memory_info
+printf "\n\n"
 get_filesystems_info
+printf "\n\n"
 get_usb_info
-get_network_interfaces_infoexit 0
+printf "\n\n"
+get_network_interfaces_info
 
 exit 0
