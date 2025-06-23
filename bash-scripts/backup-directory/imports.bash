@@ -3,7 +3,7 @@
 # Name: imports.bash
 # Description:
 #       Imports all needed functions for correct
-#       backup_directory.bash work
+#       backup_directory.bash job
 # Author: Volosnikov Ivan
 # Date: 22/06/2025
 
