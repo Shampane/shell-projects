@@ -1,14 +1,15 @@
 #!/usr/bin/bash
 
-# Name: print_list.bash
+# Name: print-list.bash
 # Description:
 #   Print list of filesystem disk usages with filters and colors
 # Author: Volosnikov Ivan
 # Date: 23/06/2025
 
-source "$functions_dir/print_with_colors.bash"
+functions_dir="./Functions"
+source "$functions_dir/print-with-colors.bash"
 
-print_list() {
+print-list() {
     local search_usage=$1
     local search_type=$2
     local search_mounted=$3
@@ -29,9 +30,9 @@ print_list() {
             (-z $search_type || $type == "$search_type") &&
             (-z $search_mounted || $mounted =~ ^$search_mounted) ]]; then
             if [[ "$usage" -ge 85 ]]; then
-                print_with_red "$line"
+                print-with-red "$line"
             elif [[ "$usage" -ge 50 ]]; then
-                print_with_yellow "$line"
+                print-with-yellow "$line"
             else
                 printf "%s\n" "$line"
             fi

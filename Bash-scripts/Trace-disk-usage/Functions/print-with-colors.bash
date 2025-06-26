@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# Name: print_with_colors.bash
+# Name: print-with-colors.bash
 # Description:
 #   Includes functions to print specific string
 #   with red, yellow or green text color
@@ -16,13 +16,13 @@ red='\033[1;38;2;225;50;50m'
 yellow='\033[1;38;2;215;165;30m'
 nc='\033[0m'
 
-print_with_red() {
+print-with-red() {
     local str=$1
 
     printf "${red}%s${nc}\n" "$str"
 }
 
-print_with_yellow() {
+print-with-yellow() {
     local str=$1
 
     printf "${yellow}%s${nc}\n" "$str"

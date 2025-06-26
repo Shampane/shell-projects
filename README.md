@@ -8,8 +8,9 @@ Below there's the list of scripts with their description and current development
 
 ## Bash
 
-1. [x] `backup_directory.bash`: archives the specified directory, including the current date in the archive name
-2. [x] `trace_disk_usage.bash`: show system's filesystems, sorted by disk usage percentage with colors and filters
+1. `backup_directory.bash`: archives the specified directory, including the current date in the archive name
+2. `test_connection.bash`: tests network connectivity to host(s) using ping, traceroute or port checks
+3. `trace_disk_usage.bash`: show system's filesystems, sorted by disk usage percentage with colors and filters
 
 ## Powershell
 

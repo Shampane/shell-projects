@@ -1,0 +1,98 @@
+26/06/2025 15:15:46 [error]: host  not found
+26/06/2025 15:15:51 [action]: start of ping google.com
+Host / Average time, ms / IPv4 / IPv6
+google.com  100.582  142.250.185.110  2a00:1450:4001:82b::200e
+26/06/2025 15:15:52 [action]: ping google.com completed sucessfully
+26/06/2025 15:17:07 [action]: start of tracing google.com
+Host / IPv4 / IPv6
+google.com / 142.250.186.174 / 2a00:1450:4001:82b::200e
+26/06/2025 15:17:10 [action]: tracing google.com completed sucessfully
+26/06/2025 15:17:46 [action]: start of tracing 
+Host / IPv4 / IPv6
+26/06/2025 15:18:24 [action]: start of testing port -1
+Test port: -1
+Host / Port status / IPv4 / IPv6
+26/06/2025 15:18:35 [action]: start of testing port -1
+Test port: -1
+Host / Port status / IPv4 / IPv6
+26/06/2025 15:18:59 [action]: start of testing port -1
+Test port: -1
+Host / Port status / IPv4 / IPv6
+26/06/2025 15:19:35 [action]: start of testing port -1
+Test port: -1
+Host / Port status / IPv4 / IPv6
+26/06/2025 15:20:42 [action]: start of testing port -1
+Test port: -1
+Host / Port status / IPv4 / IPv6
+26/06/2025 15:21:56 [action]: start of testing port -1
+Test port: -1
+Host / Port status / IPv4 / IPv6
+26/06/2025 15:21:56 [error]: host yarrdex.ru not found
+google.com / 97.263 / 142.250.185.110 / 2a00:1450:4001:82b::200e
+fotmob.com / 102.416 / 18.244.18.18 / ::ffff:18.244.18.54
+rutracker.org / 120.125 / 172.67.182.196 / 2606:4700:3034::ac43:b6c4
+github.com / 122.688 / 140.82.121.3 / ::ffff:140.82.121.3
+localhost / 0.019 / 127.0.0.1 / ::ffff:127.0.0.1
+26/06/2025 15:22:04 [action]: testing port -1 completed sucessfully
+26/06/2025 15:22:11 [action]: start of testing port -1
+Test port: -1
+Host / Port status / IPv4 / IPv6
+26/06/2025 15:22:11 [error]: host yarrdex.ru not found
+26/06/2025 15:22:58 [action]: start of ping 
+Host / Average time, ms / IPv4 / IPv6
+26/06/2025 15:22:58 [error]: host yarrdex.ru not found
+google.com / 111.821 / 142.250.185.110 / 2a00:1450:4001:82b::200e
+fotmob.com / 94.004 / 18.244.18.81 / ::ffff:18.244.18.81
+rutracker.org / 104.496 / 104.21.32.39 / 2606:4700:3031::6815:2027
+github.com / 95.273 / 140.82.121.4 / ::ffff:140.82.121.4
+localhost / 0.019 / 127.0.0.1 / ::ffff:127.0.0.1
+26/06/2025 15:23:06 [action]: ping localhost completed sucessfully
+26/06/2025 15:23:25 [action]: start of ping  from ./hosts.txt
+Host / Average time, ms / IPv4 / IPv6
+26/06/2025 15:23:25 [error]: host yarrdex.ru not found
+google.com / 107.453 / 142.250.185.110 / 2a00:1450:4001:82b::200e
+fotmob.com / 94.372 / 18.244.18.18 / ::ffff:18.244.18.18
+rutracker.org / 97.770 / 104.21.32.39 / 2606:4700:3031::6815:2027
+github.com / 99.735 / 140.82.121.4 / ::ffff:140.82.121.4
+localhost / 0.021 / 127.0.0.1 / ::ffff:127.0.0.1
+26/06/2025 15:23:32 [action]: ping hosts from ./hosts.txt completed sucessfully
+26/06/2025 15:23:36 [action]: start of ping hosts from ./hosts.txt
+Host / Average time, ms / IPv4 / IPv6
+26/06/2025 15:23:36 [error]: host yarrdex.ru not found
+google.com / 114.677 / 142.250.185.110 / 2a00:1450:4001:82b::200e
+fotmob.com / 97.250 / 18.244.18.18 / ::ffff:18.244.18.18
+rutracker.org / 116.878 / 104.21.32.39 / 2606:4700:3031::6815:2027
+github.com / 109.763 / 140.82.121.4 / ::ffff:140.82.121.4
+localhost / 0.018 / 127.0.0.1 / ::ffff:127.0.0.1
+26/06/2025 15:23:43 [action]: ping hosts from ./hosts.txt completed sucessfully
+26/06/2025 15:24:07 [action]: start of ping google.com
+Host / Average time, ms / IPv4 / IPv6
+google.com / 104.343 / 142.250.185.110 / 2a00:1450:4001:82b::200e
+26/06/2025 15:24:09 [action]: ping google.com completed sucessfully
+26/06/2025 15:24:17 [action]: start of tracing google.com
+Host / IPv4 / IPv6
+google.com / 142.250.185.110 / 2a00:1450:4001:82b::200e
+26/06/2025 15:24:18 [action]: tracing google.com completed sucessfully
+26/06/2025 15:24:26 [action]: start of tracing hosts from hosts.txt
+Host / IPv4 / IPv6
+26/06/2025 15:24:26 [error]: host yarrdex.ru not found
+google.com / 142.250.185.110 / 2a00:1450:4001:82b::200e
+fotmob.com / 18.244.18.82 / ::ffff:18.244.18.82
+rutracker.org / 104.21.32.39 / 2606:4700:3031::6815:2027
+github.com / 140.82.121.4 / ::ffff:140.82.121.4
+localhost / 127.0.0.1 / ::ffff:127.0.0.1
+26/06/2025 15:24:35 [action]: tracing hosts from hosts.txt completed sucessfully
+26/06/2025 15:24:47 [action]: start of testing port 443
+Test port: 443
+Host / Port status / IPv4 / IPv6
+google.com / connected / 142.250.185.110 / 2a00:1450:4001:82b::200e
+26/06/2025 15:24:47 [action]: testing port 443 completed sucessfully
+26/06/2025 15:25:00 [action]: start of ping hosts from hosts.txt
+Host / Average time, ms / IPv4 / IPv6
+26/06/2025 15:25:00 [error]: host yarrdex.ru not found
+google.com / connected / 142.250.185.110 / 2a00:1450:4001:82b::200e
+fotmob.com / connected / 18.244.18.82 / ::ffff:18.244.18.82
+rutracker.org / connected / 104.21.32.39 / 2606:4700:3034::ac43:b6c4
+github.com / connected / 140.82.121.4 / ::ffff:140.82.121.4
+localhost / refused / 127.0.0.1 / ::ffff:127.0.0.1
+26/06/2025 15:25:03 [action]: ping hosts from hosts.txt completed sucessfully

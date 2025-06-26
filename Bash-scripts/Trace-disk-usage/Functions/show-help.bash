@@ -1,12 +1,12 @@
 #!/usr/bin/bash
 
-# Name: show_help.bash
+# Name: show-help.bash
 # Description:
 #   Show help message for trace_disk_usage.bash job
 # Author: Volosnikov Ivan
 # Date: 23/06/2025
 
-show_help() {
+show-help() {
     cat <<__EOF__
 Usage: trace_disk_usage.bash [-u <usage_percentage>] [-t <filesystem_type>] [-m <mounted_path_regex>] [-h]
 Description: provides a color-coded, sorted overview of your system's filesystems, with options to filter by disk usage, type, and mount path.
